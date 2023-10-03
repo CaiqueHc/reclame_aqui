@@ -133,7 +133,7 @@ raCell = document.createElement('th')
 raCell.innerHTML = "Respostas"
 raRow.appendChild(raCell)
 raCell = document.createElement('th')
-raCell.innerHTML = "Nota"
+raCell.innerHTML = "Nota - 6m"
 raRow.appendChild(raCell)
 raCell = document.createElement('th')
 raCell.innerHTML = "Indice de Sol."
@@ -152,7 +152,7 @@ raCell = document.createElement('th')
 raCell.innerHTML = "Respostas"
 raRow.appendChild(raCell)
 raCell = document.createElement('th')
-raCell.innerHTML = "Nota"
+raCell.innerHTML = "Nota - 12m"
 raRow.appendChild(raCell)
 raCell = document.createElement('th')
 raCell.innerHTML = "Indice de Sol."
@@ -332,7 +332,7 @@ function getResultsRA(urlToGetJson) {
                     r12 = true
                     var r12nRec = objJson.indexes[j].totalComplains || 0
                     var r12nResp = objJson.indexes[j].totalAnswered || 0
-                    // var r12nota = objJson.indexes[j].consumerScore || 0
+                    //var r12nota = objJson.indexes[j].consumerScore || 0
                     var r12nota = objJson.indexes[j].finalScore || 0
                     var r12indSol = objJson.indexes[j].solvedPercentual || 0
                     var r12volFazNeg = objJson.indexes[j].dealAgainPercentual || 0
