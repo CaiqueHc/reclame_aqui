@@ -213,7 +213,7 @@ function PrintRA(nome,
     raCell.innerHTML = r12nResp
     raRow.appendChild(raCell)
     raCell = document.createElement('td')
-    raCell.innerHTML = r12nota.toFixed(2).replace(".", ",")
+    raCell.innerHTML = r12nota.toFixed(2).replace(".", ",") + "/10"
     raRow.appendChild(raCell)
     raCell = document.createElement('td')
     raCell.innerHTML = r12indSol.toFixed(2).replace(".", ",") + "%"
@@ -232,7 +232,7 @@ function PrintRA(nome,
     raCell.innerHTML = r6nResp
     raRow.appendChild(raCell)
     raCell = document.createElement('td')
-    raCell.innerHTML = r6nota.toFixed(2).replace(".", ",")
+    raCell.innerHTML = r6nota.toFixed(2).replace(".", ",") + "/10"
     raRow.appendChild(raCell)
     raCell = document.createElement('td')
     raCell.innerHTML = r6indSol.toFixed(2).replace(".", ",") + "%"
